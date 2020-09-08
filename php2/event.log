@@ -1,0 +1,6 @@
+[ September 30, 2019, 8:40 am ] Operation: 3 4 mul [ Result ] 12
+[ September 30, 2019, 8:41 am ] Operation: 3 4 div [ Result ] 0.75
+[ September 30, 2019, 8:41 am ] Operation: 3 4 rem [ Result ] 3
+[ September 30, 2019, 10:23 am ] Operation: 3 0 mul [ Result ] 0
+[ September 30, 2019, 10:23 am ] Operation: 3 4 mul [ Result ] 12
+[ September 30, 2019, 10:26 am ] Operation: 3 4 sum [ Result ] 7

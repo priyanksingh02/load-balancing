@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    -->
+    <link href="floating-labels.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="form-signin">
+        <div class="text-center mb-4">
+            <h1 class="h3 mb-3 font-weight-normal">CS645: Software Architecture</h1>
+            <p>Assignment 3 : part A</p>
+        </div>
+        <div class="form-label-group mb-3">
+            
+            <div class="custom-control custom-radio custom-control-inline">
+                <input class="custom-control-input" type="radio" name="mode" id="num" value="num" checked>
+                <label class="custom-control-label" for="num">
+                    Number
+                </label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+                <input class="custom-control-input" type="radio" name="mode" id="str" value="str">
+                <label class="custom-control-label" for="str">
+                    String
+                </label>
+            </div>
+        </div>
+
+        <div class="form-label-group">
+
+            <select class="custom-select custom-select-sm" id="operation">
+                <option value="nop" selected>Select Any Operation</option>
+                <option value="sum">Addition</option>
+            </select>
+        </div>
+
+        <div class="form-label-group" id="input1grp">
+            <input type="text" class="form-control" id="input1" placeholder="0" required>
+            <label for="input1" id="inputlabel">Input A</label>
+        </div>
+        <div class="form-label-group" id="input2grp">
+            <input type="text" class="form-control" id="input2" placeholder="0">
+            <label for="input2">Input B</label>
+        </div>
+        <div class="form-label-group">
+
+            <button type="submit" class="btn btn-lg btn-primary btn-block">Calculate!</button>
+        </div>
+
+        <div class="card text-center border-info mb-3" id="result-box">
+            <div class="card-body text-info">
+                <p class="card-text" id="result">Result</p>
+            </div>
+        </div>
+        <p class="mt-5 mb-3 text-muted text-center"> priyanks&commat;iitk.ac.in</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src=script.js></script>
+</body>
+
+</html>

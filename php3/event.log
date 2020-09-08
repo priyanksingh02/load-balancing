@@ -1,0 +1,5 @@
+[ September 30, 2019, 8:40 am ] Operation: 3 4 cc [ Result ] 34
+[ September 30, 2019, 8:41 am ] Operation: 3 4 com [ Result ] false
+[ September 30, 2019, 10:22 am ] Operation: 3 4 cc [ Result ] 34
+[ September 30, 2019, 10:23 am ] Operation: 3 4aaa cc [ Result ] 34aaa
+[ September 30, 2019, 10:23 am ] Operation: assignment 4 len [ Result ] 10
